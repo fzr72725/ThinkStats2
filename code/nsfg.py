@@ -15,7 +15,7 @@ import thinkstats2
 
 
 def ReadFemPreg(dct_file='2002FemPreg.dct',
-                dat_file='2002FemPreg.dat.gz'):
+                dat_file='2002FemPreg.dat.gz'):# package data from the Stata dictionary into a Pandas dataframe
     """Reads the NSFG pregnancy data.
 
     dct_file: string file name
